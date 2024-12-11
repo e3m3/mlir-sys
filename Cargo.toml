@@ -11,3 +11,6 @@ license-file = "LICENSE"
 
 [build-dependencies]
 bindgen = "0.71.1"
+
+[lib]
+crate-type = [ "cdylib", "rlib" ]
